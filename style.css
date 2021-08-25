@@ -1,0 +1,88 @@
+body {
+  background-color: #03003b;
+}
+
+.grid {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 560px;
+  height: 560px;
+  border: solid rgb(96, 169, 236);
+}
+
+.title {
+  border-radius: 20px;
+  display: block;
+  text-align: center;
+}
+
+h1 {
+  /* margin: 20px 100px; */
+  padding: 0 10px;
+  /* background: rgb(15, 63, 136); */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: gold;
+}
+
+p {
+  color: #0456da;
+}
+
+h3 {
+  margin: 10px 190px;
+  color: rgb(255, 241, 241);
+}
+
+.grid div {
+  width: 20px;
+  height: 20px;
+}
+
+.pac-dot {
+  background-color: green;
+  border: 5px solid #03003b;
+  box-sizing: border-box;
+}
+
+.wall {
+  background-color: rgb(3, 3, 194);
+}
+
+.power-pellet {
+  background-image: url(svg/rocket.svg);
+  /* border-radius: 10px; */
+}
+
+.blinky {
+  background-image: url(svg/tesla.svg);
+  background-size: cover;
+  background-color: #03003b;
+}
+
+.pinky {
+  background: url(svg/whale.svg);
+  /* background-size: cover; */
+  background-color: #03003b;
+}
+
+.inky {
+  background-image: url(svg/bnb.svg);
+  background-color: #03003b;
+}
+
+.clyde {
+  background-image: url(svg/tether.svg);
+  background-repeat: no-repeat;
+  background-color: #03003b;
+}
+
+.pac-man {
+  background-image: url(svg/btc.svg);
+  border-radius: 10px;
+}
+
+.scared-ghost {
+  background-color: aquamarine;
+  background-image: none;
+}
